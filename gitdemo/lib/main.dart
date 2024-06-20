@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'GitHub Demo Home Page'),
+      home: const MyHomePage(title: 'GitHub Demo'),
     );
   }
 }
@@ -107,6 +107,12 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const Text(
               'You have pushed the button this many times:',
+            ),
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            const Text(
+            'this is purvi',
             ),
             Text(
               '$_counter',
